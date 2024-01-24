@@ -4,54 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>KIWI</title>
   </head>
   <body>
     <header>
-      <div class="wellness-hub">
-        <div class="heading">WELLNESS HUB</div>
-        <div class="in-container">
+      <div class="bg-black h-24">
+        <div class="text-3xl text-white flex justify-center">WELLNESS HUB</div>
+        <!-- <div class="flex justify-center m-4">
           <input type="text" placeholder="Topics" />
           <input type="datetime" placeholder="Artical Types" />
-        </div>
+        </div> -->
       </div>
     </header>
-    <div class="first-container">
-      <img src="src/pexels-pixabay.jpg" alt="" />
-      <div class="fc-text">
-        <h2>
+    <div
+      class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl md:flex md:mt-3"
+    >
+      <img
+        class="h-60 w-72 m-auto object-cover md:h-full md:max-w-52 md:flex justify-center"
+        src="src/pexels-pixabay.jpg"
+        alt=""
+      />
+      <div
+        class="flex-col px-12 flex justify-center text-3 md:text-3 md:flex justify-center md:flex-col md:px-12"
+      >
+        <h2 class="w">
+          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
+          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
+          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
+          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
+          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
           Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
         </h2>
-        <p>
-          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
-        </p>
-        <a href="Readmore">Read More</a>
+
+        <a class="text-cyan-400 mt-6" href="Readmore">Read More</a>
       </div>
     </div>
-    <div class="letest-text">Latest-artical</div>
-    <div class="slide-container">
-      <div class="latest-contant">
-        <div class="container1">
-          <img src="src/leef image.avif" alt="" width="420px" />
-          <div class="banner">News</div>
+    <div class="text-center sm-flex justify-center text-3xl mt-6">
+      Latest-artical
+    </div>
+    <div
+      class="max-w-fit-md w-9/12 flex overflow-scroll mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl md:flex md:mt-3"
+    >
+      <div class="flex">
+        <div class="w-96 m-4">
+          <img class="h-4/6" src="src/leef image.avif" alt="" width="420px" />
+          <div class="text-red-600">News</div>
           <h2>
             Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do
             eiusmod
           </h2>
           <h3>1st january 2023</h3>
         </div>
-        <div class="container2">
-          <img src="src/treeeimage.jpg" alt="" width="420px" />
-          <div class="banner">News</div>
+        <div class="w-96 m-4">
+          <img class="h-4/6" src="src/treeeimage.jpg" alt="" width="420px" />
+          <div class="text-red-600">News</div>
           <h2>
             Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do
             eiusmod
           </h2>
           <h3>1st january 2023</h3>
         </div>
-        <div class="container3">
-          <img src="src/painting-mountain.avif" alt="" width="420px" />
-          <div class="banner">News</div>
+        <div class="w-96 m-4">
+          <img
+            class="h-4/6"
+            src="src/painting-mountain.avif"
+            alt=""
+            width="420px"
+          />
+          <div class="text-red-600">News</div>
           <h2>
             Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do
             eiusmod
@@ -60,111 +82,171 @@
         </div>
       </div>
     </div>
-    <button class="view-all-btn">VIEW ALL</button>
+    <button
+      class="flex justify-center m-auto bg-black hover:bg-blue-700 text-white font-bold p-2"
+    >
+      VIEW ALL
+    </button>
 
     <!-- secondrow -->
 
-    <div class="letest-text">Help & Advice</div>
-    <div class="latest-contant">
-      <div class="container1">
-        <img src="src/leef image.avif" alt="" width="420px" />
-        <div class="banner">News</div>
-        <h2>
-          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
-        </h2>
-        <h3>1st january 2023</h3>
-      </div>
-      <div class="container2">
-        <img src="src/pexels-pixabay.jpg" alt="" width="380px" />
-        <div class="banner">News</div>
-        <h2>
-          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
-        </h2>
-        <h3>1st january 2023</h3>
-      </div>
-      <div class="container3">
-        <img src="src/treeeimage.jpg" alt="" width="420px" />
-        <div class="banner">News</div>
-        <h2>
-          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
-        </h2>
-        <h3>1st january 2023</h3>
+    <div class="text-center sm-flex justify-center text-3xl mt-6">
+      Help & Advice
+    </div>
+    <div
+      class="max-w-fit-md w-9/12 flex overflow-scroll mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl md:flex md:mt-3"
+    >
+      <div class="flex">
+        <div class="w-96 m-4">
+          <img class="h-4/6" src="src/leef image.avif" alt="" width="420px" />
+          <div class="text-red-600">News</div>
+          <h2>
+            Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do
+            eiusmod
+          </h2>
+          <h3>1st january 2023</h3>
+        </div>
+        <div class="w-96 m-4">
+          <img
+            class="h-4/6"
+            src="src/pexels-pixabay.jpg"
+            alt=""
+            width="380px"
+          />
+          <div class="text-red-600">News</div>
+          <h2>
+            Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do
+            eiusmod
+          </h2>
+          <h3>1st january 2023</h3>
+        </div>
+        <div class="w-96 m-4">
+          <img class="h-4/6" src="src/treeeimage.jpg" alt="" width="420px" />
+          <div class="text-red-600">News</div>
+          <h2>
+            Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do
+            eiusmod
+          </h2>
+          <h3>1st january 2023</h3>
+        </div>
       </div>
     </div>
-    <button class="view-all-btn">VIEW ALL</button>
+    <button
+      class="flex justify-center m-auto bg-black hover:bg-blue-700 text-white font-bold p-2"
+    >
+      VIEW ALL
+    </button>
 
     <!-- third row -->
 
-    <div class="letest-text">Buyers Guides</div>
-    <div class="latest-contant">
-      <div class="container1">
-        <img src="src/treeeimage.jpg" alt="" width="420px" />
-        <div class="banner">News</div>
-        <h2>
-          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
-        </h2>
-        <h3>1st january 2023</h3>
-      </div>
-      <div class="container2">
-        <img src="src/wolf image.png" alt="" width="380px" />
-        <div class="banner">News</div>
-        <h2>
-          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
-        </h2>
-        <h3>1st january 2023</h3>
-      </div>
-      <div class="container3">
-        <img src="src/water.jpg" alt="" width="440px" />
-        <div class="banner">News</div>
-        <h2>
-          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
-        </h2>
-        <h3>1st january 2023</h3>
+    <div class="text-center md:flex justify-center text-3xl mt-6 text-3xl">
+      Buyers Guides
+    </div>
+    <div
+      class="max-w-fit-md w-9/12 flex overflow-scroll mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl md:flex md:mt-3"
+    >
+      <div class="flex">
+        <div class="w-96 m-4">
+          <img src="src/treeeimage.jpg" alt="" width="420px" />
+          <div class="blue">News</div>
+          <h2>
+            Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do
+            eiusmod
+          </h2>
+          <h3>1st january 2023</h3>
+        </div>
+        <div class="w-96 m-4">
+          <img class="h-4/6" src="src/wolf image.png" alt="" width="380px" />
+          <div class="text-red-600">News</div>
+          <h2>
+            Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do
+            eiusmod
+          </h2>
+          <h3>1st january 2023</h3>
+        </div>
+        <div class="w-96 m-4">
+          <img src="src/water.jpg" alt="" width="440px" />
+          <div class="text-red-600">News</div>
+          <h2>
+            Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do
+            eiusmod
+          </h2>
+          <h3>1st january 2023</h3>
+        </div>
       </div>
     </div>
-    <button class="view-all-btn">VIEW ALL</button>
+    <button
+      class="flex justify-center m-auto bg-black hover:bg-blue-700 text-white font-bold p-2"
+    >
+      VIEW ALL
+    </button>
     <!--  -->
-    <div class="second-container">
-      <img src="src/wolf image.png" alt="" />
-      <div class="sc-text">
-        <h2>
+    <div
+      class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl md:flex mt-6"
+    >
+      <img
+        class="h-60 w-72 m-auto object-cover md:h-full md:max-w-60 md:flex justify-center"
+        src="src/pexels-pixabay.jpg"
+        alt=""
+      />
+      <div
+        class="flex-col px-12 flex justify-center text-3 md:text-3 md:flex justify-center md:flex-col md:px-12"
+      >
+        <h2 class="">
+          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
+          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
+          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
+          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
+          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
+          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
           Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
         </h2>
-        <p>
-          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
-        </p>
-        <a href="Readmore">Read More</a>
+
+        <a class="text-cyan-400 mt-6 flex-col" href="Readmore">Read More</a>
       </div>
     </div>
     <!-- forth row -->
 
-    <div class="letest-text">Case Studies</div>
-    <div class="latest-contant">
-      <div class="container1">
-        <img src="src/leef image.avif" alt="" width="420px" />
-        <div class="banner">News</div>
-        <h2>
-          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
-        </h2>
-        <h3>1st january 2023</h3>
-      </div>
-      <div class="container2">
-        <img src="src/water.jpg" alt="" width="420px" />
-        <div class="banner">News</div>
-        <h2>
-          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
-        </h2>
-        <h3>1st january 2023</h3>
-      </div>
-      <div class="container3">
-        <img src="src/360f.jpg" alt="" width="420px" />
-        <div class="banner">News</div>
-        <h2>
-          Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do eiusmod
-        </h2>
-        <h3>1st january 2023</h3>
+    <div class="text-center md:flex justify-center text-3xl md:mt-6">
+      Case Studies
+    </div>
+    <div
+      class="max-w-fit-md w-9/12 flex overflow-scroll mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl md:flex md:mt-3"
+    >
+      <div class="flex">
+        <div class="w-96 m-4">
+          <img src="src/leef image.avif" alt="" width="420px" />
+          <div class="text-red-600">News</div>
+          <h2>
+            Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do
+            eiusmod
+          </h2>
+          <h3>1st january 2023</h3>
+        </div>
+        <div class="w-96 m-4">
+          <img src="src/water.jpg" alt="" width="420px" />
+          <div class="text-red-600">News</div>
+          <h2>
+            Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do
+            eiusmod
+          </h2>
+          <h3>1st january 2023</h3>
+        </div>
+        <div class="w-96 m-4">
+          <img src="src/360f.jpg" alt="" width="420px" />
+          <div class="text-red-600">News</div>
+          <h2>
+            Lorem ipsumdolor sit ament, consectetur adipiscing elit sed do
+            eiusmod
+          </h2>
+          <h3>1st january 2023</h3>
+        </div>
       </div>
     </div>
-    <button class="view-all-btn">VIEW ALL</button>
+    <button
+      class="flex justify-center m-auto bg-black hover:bg-blue-700 text-white font-bold p-2"
+    >
+      VIEW ALL
+    </button>
   </body>
 </html>
